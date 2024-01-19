@@ -1,9 +1,13 @@
 header h1 {
-    color:rgb(184, 29, 111);
+    color:#ae5f05;
     font-size: 95px;
     font-weight: bold;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+   
+}
+h1 { 
+    text-shadow: 6px 6px 16px rgba(0,0,0,0.5);
 }
 
 p {font-size: large;
@@ -13,11 +17,15 @@ p {font-size: large;
 
 }
 li {
-
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 5px;
 }
-text link {
-
+li:hover {
+    background-color: bisque;
 }
+
 table {
     width: 80%;
     margin: auto;
@@ -35,3 +43,30 @@ table caption {
     font-size: 150;
     font-weight: bold;
 }
+form {
+    background-color:bisque;
+    padding: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Visited link styles */
+a:visited {
+    color: #990099;
+}
+
+/* Hovered link styles */
+a:hover {
+    color: #ff9900;
+    text-decoration: underline;
+}
+
+/* Active link styles */
+a:active {
+    color: #ff0000;
+}
+    
+    
